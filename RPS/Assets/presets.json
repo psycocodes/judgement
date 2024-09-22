@@ -1,0 +1,88 @@
+{
+    "BASE": {
+        "vx": 1,
+        "vy": -1,
+        "gravity": 0.0,
+        "lifetime_min": 5,
+        "lifetime_max": 10,
+        "limit": 60,
+        "end_radius": 0,
+        "spread": 0.001,
+        "size_death_rate": 0.08,
+        "alpha_death_rate": 0,
+        "color_set": null,
+        "optimization_factor": 1,
+        "properties": null,
+        "special_flags": null
+    },
+    "FIRE": {
+        "vx": 15,
+        "vy": -0.3,
+        "gravity": 0.0005,
+        "lifetime_min": 1,
+        "lifetime_max": 3,
+        "limit": 15,
+        "end_radius": 0,
+        "spread": 0.1,
+        "size_death_rate": 0.03,
+        "alpha_death_rate": 0,
+        "color_set": {
+            "primary": [
+                255,
+                255,
+                255
+            ],
+            "accent": [
+                255,
+                103,
+                0
+            ]
+        },
+        "optimization_factor": 1,
+        "properties": null,
+        "special_flags": null
+    },
+    "SMOKE": {
+        "vx": 100,
+        "vy": -0.3,
+        "gravity": 0.0,
+        "lifetime_min": 2,
+        "lifetime_max": 6,
+        "limit": 10,
+        "end_radius": 8,
+        "spread": 0.15,
+        "size_death_rate": -0.01,
+        "alpha_death_rate": 0,
+        "color_set": null,
+        "optimization_factor": 10,
+        "properties": {
+            "inner_circle": false,
+            "glow_intensity": 10
+        },
+        "special_flags": null
+    },
+    "FIRE_SPARK": {
+        "vx": 10,
+        "vy": -0.2,
+        "gravity": 0.01,
+        "lifetime_min": 1,
+        "lifetime_max": 2,
+        "limit": 4,
+        "end_radius": 0,
+        "spread": 1,
+        "size_death_rate": 0.012,
+        "alpha_death_rate": 0,
+        "color_set": {
+            "accent": [
+                255,
+                103,
+                0
+            ]
+        },
+        "optimization_factor": 60,
+        "properties": {
+            "glow_intensity": 0
+        },
+        "special_flags": null
+    }
+}

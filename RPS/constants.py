@@ -1,0 +1,18 @@
+# Redundant->
+# ASPECT_RATIO = 16, 9
+# SCALE = 50
+# SCREEN_WIDTH, SCREEN_HEIGHT = SCALE*ASPECT_RATIO[0], SCALE*ASPECT_RATIO[1]
+WINDOW_FACTOR = 50
+SCROLL = 0 # 692
+SCROLL_VX = 0.1
+
+BLACK = (0, 0, 0)
+GRAY = (128, 128, 128)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+PRESET_FILE_PATH = 'RPS/Assets/presets.json'
+DATA_FILE_PATH = 'RPS/Assets/particle_data.json'
+
